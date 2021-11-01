@@ -1,13 +1,13 @@
-pragma solidity ^0.4.24;
+pragma solidity 0.4.24;
 
 // ----------------------------------------------------------------------------
-// '0Fucks' token contract
+// 'VOTE' token contract
 //
 // Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
-// Symbol      : 0FUCKS
-// Name        : 0 Fucks Token
+// Symbol      : VOTE
+// Name        : 2024 Vote Tokens
 // Total supply: 100000000
-// Decimals    : 18
+// Decimals    : 1
 //
 // Enjoy.
 //
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract FucksToken is ERC20Interface, Owned, SafeMath {
+contract VoteToken is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
